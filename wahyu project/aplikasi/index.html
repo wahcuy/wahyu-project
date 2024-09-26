@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PinkShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+ss
+    <section id="home" class="section">
+        <h2>Welcome to PinkShop</h2>
+        <p>Your one-stop shop for the best deals on electronics, fashion, and more!</p>
+    </section>
+
+    <section id="products" class="section">
+        <h2>Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Smartphone</h3>
+                <p>Price: IDR 2,500,000</p>
+                <button onclick="addToCart('Smartphone', 2500000)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h3>Laptop</h3>
+                <p>Price: IDR 8,000,000</p>
+                <button onclick="addToCart('Laptop', 8000000)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h3>Headphones</h3>
+                <p>Price: IDR 500,000</p>
+                <button onclick="addToCart('Headphones', 500000)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h3>Sneakers</h3>
+                <p>Price: IDR 1,200,000</p>
+                <button onclick="addToCart('Sneakers', 1200000)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="section">
+        <h2>Your Cart</h2>
+        <ul id="cart-list"></ul>
+        <p id="total-price"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

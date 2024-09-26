@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Wahyu Satriyo CM</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>WAHYU SATRIYO CAHYA MULIAMAR</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm WAHCUY</h2>
+            <img src="wayu.jpeg" alt="WAHYUUU9999" class="max-w-full mx-auto" width="30%">
+            <p>A passionate IT professional specializing in [spesialisasi Anda].</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm WAHYU, a WebDevlop with 3 years of experience in the IT industry. My expertise lies in multitaksing. I have a deep passion for learning new technologies and applying them to solve real-world problems.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Database Management (SQL, NoSQL)</li>
+                    <li>Version Control (Git)</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, feel free to reach out to me through any of the platforms below:</p>
+        <ul>
+            <li>Email: wahyumuliamar17@gmail.com</li>
+            <li>Instagram: wahyuuu9999</li>
+            <li>GitHub: sayawahyu91</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 wahyu. All rights reserved.</p>
+    </footer>
+
+    <script src="document.js"></script>
+</body>
+</html>

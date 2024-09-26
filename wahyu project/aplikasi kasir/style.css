@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    background-color: #f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.media-display img, .media-display audio, .media-display video {
+    margin-top: 10px;
+}
+

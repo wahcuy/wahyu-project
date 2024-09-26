@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menampilkan Foto, Audio, Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menampilkan Foto, Audio, Video</h1>
+        
+        <p>Tata pengaturan bebas dengan font, size font, color dan tata letak bebas.</p>
+
+        <div class="media-display">
+            <label for="image">Menampilkan Gambar:</label>
+            <input type="file" id="image" accept="image/*"><br>
+            <img id="imagePreview" src="" alt="Preview Gambar" style="display: none;">
+
+            <label for="audio">Menampilkan Audio:</label>
+            <input type="file" id="audio" accept="audio/*"><br>
+            <audio id="audioPlayer" controls style="display: none;"></audio>
+
+            <label for="video">Menampilkan Video:</label>
+            <input type="file" id="video" accept="video/*"><br>
+            <video id="videoPlayer" controls style="display: none; width: 300px;"></video>
+            by:wahyu
+        </div>
+    </div>
+
+    <script src="dokumen.js"></script>
+</body>
+</html>

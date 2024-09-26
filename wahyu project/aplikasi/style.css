@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #ff1493;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 100px 20px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 2px solid #ff1493;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+}
+
+.product-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #ff69b4;
+}
+
+#cart {
+    background-color: #ffe4e1;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#total-price {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ff1493;
+}
